@@ -41,7 +41,7 @@ public class TimeAnalyseTest {
         
         normalizer.parse("Hi，all.七夕节上午我跑了一个小时");// 抽取时间
         TimeUnit[] unit = normalizer.getTimeUnit();
-        System.out.println("Hi，all.八一建军节上午我跑了一个小时");
+        System.out.println("Hi，all.七夕节上午我跑了一个小时");
         System.out.println(DateUtil.formatDateDefault(unit[0].getTime()) + "-" + unit[0].getIsAllDayTime());
 
 //        normalizer.parse("国庆节早上六点起床");// 注意此处识别到6天在今天已经过去，自动识别为明早六点（未来倾向，可通过开关关闭：new TimeNormalizer(classPath+"/TimeExp.m", false)）
