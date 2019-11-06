@@ -39,11 +39,12 @@ public class TimeAnalyseTest {
         TimeNormalizer normalizer = new TimeNormalizer(url.toURI().toString());
         normalizer.setPreferFuture(true);
         
-        normalizer.parse("Hi，all.七夕节上午我跑了一个小时");// 抽取时间
+        normalizer.parse("周三上午9点的活动信息");// 抽取时间
         TimeUnit[] unit = normalizer.getTimeUnit();
-        System.out.println("Hi，all.七夕节上午我跑了一个小时");
-        System.out.println(DateUtil.formatDateDefault(unit[0].getTime()) + "-" + unit[0].getIsAllDayTime());
+       	for(int i=0;i<unit.length;i++){
 
+        System.out.println(DateUtil.formatDateDefault(unit[i].getTime()) + "-" + unit[i].Time_Expression);
+		}
 //        normalizer.parse("国庆节早上六点起床");// 注意此处识别到6天在今天已经过去，自动识别为明早六点（未来倾向，可通过开关关闭：new TimeNormalizer(classPath+"/TimeExp.m", false)）
 //        unit = normalizer.getTimeUnit();
 //        System.out.println("早上六点起床");
@@ -93,14 +94,14 @@ public class TimeAnalyseTest {
 //
 //        //新闻随机抽取长句识别（2016年6月7日新闻,均以当日0点为基准时间计算）
 //        //例1
-//        normalizer.parse("7月 10日晚上7 点左右，六安市公安局裕安分局平桥派出所接到辖区居民戴某报警称，到同学家玩耍的女儿迟迟未归，手机也打不通了。很快，派出所又接到与戴某同住一小区的王女士报警：下午5点左右，12岁的儿子和同学在家中吃过晚饭后，"
-//        		+ "带着3 岁的弟弟一起出了门，之后便没了消息，手机也关机了。短时间内，接到两起孩子失联的报警，值班民警张晖和队友立即前往小区。", "2016-07-19-00-00-00");
-//        unit = normalizer.getTimeUnit();
-//        System.out.println("7月 10日晚上7 点左右，六安市公安局裕安分局平桥派出所接到辖区居民戴某报警称，到同学家玩耍的女儿迟迟未归，手机也打不通了。很快，派出所又接到与戴某同住一小区的王女士报警：下午5点左右，12岁的儿子和同学在家中吃过晚饭后，"
-//        		+ "带着3 岁的弟弟一起出了门，之后便没了消息，手机也关机了。短时间内，接到两起孩子失联的报警，值班民警张晖和队友立即前往小区。");
-//        for(int i = 0; i < unit.length; i++){
-//            System.out.println("时间文本:"+unit[i].Time_Expression +",对应时间:"+ DateUtil.formatDateDefault(unit[i].getTime()));
-//        }
+        normalizer.parse("7月 10日晚上7 点左右，六安市公安局裕安分局平桥派出所接到辖区居民戴某报警称，到同学家玩耍的女儿迟迟未归，手机也打不通了。很快，派出所又接到与戴某同住一小区的王女士报警：下午5点左右，12岁的儿子和同学在家中吃过晚饭后，"
+        		+ "带着3 岁的弟弟一起出了门，之后便没了消息，手机也关机了。短时间内，接到两起孩子失联的报警，值班民警张晖和队友立即前往小区。", "2016-07-19-00-00-00");
+        unit = normalizer.getTimeUnit();
+        System.out.println("7月 10日晚上7 点左右，六安市公安局裕安分局平桥派出所接到辖区居民戴某报警称，到同学家玩耍的女儿迟迟未归，手机也打不通了。很快，派出所又接到与戴某同住一小区的王女士报警：下午5点左右，12岁的儿子和同学在家中吃过晚饭后，"
+        		+ "带着3 岁的弟弟一起出了门，之后便没了消息，手机也关机了。短时间内，接到两起孩子失联的报警，值班民警张晖和队友立即前往小区。");
+        for(int i = 0; i < unit.length; i++){
+            System.out.println("时间文本:"+unit[i].Time_Expression +",对应时间:"+ DateUtil.formatDateDefault(unit[i].getTime()));
+        }
 //
 //        //例2
 //        normalizer.parse("《辽宁日报》今日报道，7月18日辽宁召开省委常委扩大会，会议从下午两点半开到六点半，主要议题为：落实中央巡视整改要求。", "2016-07-19-00-00-00");
