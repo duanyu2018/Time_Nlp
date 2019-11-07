@@ -39,7 +39,7 @@ public class TimeAnalyseTest {
         TimeNormalizer normalizer = new TimeNormalizer(url.toURI().toString());
         normalizer.setPreferFuture(true);
         
-        normalizer.parse("下周天的活动");// 抽取时间
+        normalizer.parse("查询一下周天的活动");// 抽取时间
         TimeUnit[] unit = normalizer.getTimeUnit();
        	for(int i=0;i<unit.length;i++){
 
