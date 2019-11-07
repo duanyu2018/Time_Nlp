@@ -1,12 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="d897f22d-2b71-4298-96b1-419ccba9d7a8" name="Default Changelist" comment="修改测试">
+    <list default="true" id="d897f22d-2b71-4298-96b1-419ccba9d7a8" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/com/shinyke/ReTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/test/com/shinyke/ReTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/test/com/shinyke/TimeAnalyseTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/test/com/shinyke/TimeAnalyseTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/无标题文档 1" beforeDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/classes/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -21,11 +18,57 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/time/nlp/TimeNLP.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="624">
+            <state relative-caret-position="722">
               <caret line="38" column="16" selection-start-line="38" selection-start-column="8" selection-end-line="38" selection-end-column="16" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/test/com/shinyke/TimeAnalyseTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="138">
+              <caret line="133" column="4358" selection-start-line="133" selection-start-column="4358" selection-end-line="133" selection-end-column="4358" />
+              <folding>
+                <element signature="n#!!doc" expanded="true" />
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/pom.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="113">
+              <caret line="74" column="46" selection-start-line="74" selection-start-column="46" selection-end-line="74" selection-end-column="46" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/test/com/shinyke/ReTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="361">
+              <caret line="19" column="5" selection-start-line="19" selection-start-column="5" selection-end-line="19" selection-end-column="5" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/test/com/shinyke/LunarCalendar.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="516">
+              <caret line="35" column="41" selection-start-line="35" selection-start-column="31" selection-end-line="35" selection-end-column="41" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -36,7 +79,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/time/nlp/TimeNormalizer.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="572">
+            <state relative-caret-position="152">
               <caret line="279" column="8" selection-start-line="279" selection-start-column="8" selection-end-line="279" selection-end-column="8" />
               <folding>
                 <element signature="e#4080#4081#0" expanded="true" />
@@ -59,6 +102,9 @@
     <findStrings>
       <find />
       <find>上午</find>
+      <find>周天</find>
+      <find>天</find>
+      <find>下</find>
     </findStrings>
     <dirStrings>
       <dir>$PROJECT_DIR$/src</dir>
@@ -82,9 +128,9 @@
         <option value="$PROJECT_DIR$/README.md" />
         <option value="$PROJECT_DIR$/src/com/time/nlp/TimeNLP.java" />
         <option value="$PROJECT_DIR$/pom.xml" />
-        <option value="$PROJECT_DIR$/test/com/shinyke/TimeAnalyseTest.java" />
         <option value="$PROJECT_DIR$/test/com/shinyke/ReTest.java" />
         <option value="$PROJECT_DIR$/src/com/time/nlp/TimeNormalizer.java" />
+        <option value="$PROJECT_DIR$/test/com/shinyke/TimeAnalyseTest.java" />
       </list>
     </option>
   </component>
@@ -129,8 +175,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
       <pane id="Scope" />
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -141,12 +187,24 @@
             <path>
               <item name="Time-NLP" type="b2602c69:ProjectViewProjectNode" />
               <item name="Time-NLP-master" type="462c0819:PsiDirectoryNode" />
-              <item name="resource" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="Time-NLP" type="b2602c69:ProjectViewProjectNode" />
               <item name="Time-NLP-master" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="nlp" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Time-NLP" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Time-NLP-master" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Time-NLP" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Time-NLP-master" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="shinyke" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -188,7 +246,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.TimeAnalyseTest.testTimeNLP">
+  <component name="RunManager" selected="JUnit.TimeAnalyseTest">
     <configuration name="HolidayConfig" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.time.nlp.HolidayConfig" />
       <module name="Time-NLP" />
@@ -264,8 +322,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.TimeAnalyseTest.testTimeNLP" />
         <item itemvalue="JUnit.TimeAnalyseTest" />
+        <item itemvalue="JUnit.TimeAnalyseTest.testTimeNLP" />
         <item itemvalue="JUnit.TimeAnalyseTest.editTimeExp" />
         <item itemvalue="Application.HolidayConfig" />
       </list>
@@ -296,7 +354,8 @@
       <workItem from="1572600092729" duration="1067000" />
       <workItem from="1573024800728" duration="185000" />
       <workItem from="1573026419493" duration="424000" />
-      <workItem from="1573027075623" duration="542000" />
+      <workItem from="1573027075623" duration="1251000" />
+      <workItem from="1573116365975" duration="724000" />
     </task>
     <task id="LOCAL-00001" summary="Time_nlp 添加节日时间支持">
       <created>1569466591830</created>
@@ -333,13 +392,24 @@
       <option name="project" value="LOCAL" />
       <updated>1573027420647</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="删除垃圾文件">
+      <created>1573027687612</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1573027687612</updated>
+    </task>
+    <task id="LOCAL-00007" summary="修改测试">
+      <created>1573027697865</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1573027697865</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="TimeAnalyseTest - 2019.09.26 at 11h 03m 51s.xml">
-      <configuration name="TimeAnalyseTest" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="TimeAnalyseTest - 2019.09.26 at 11h 28m 53s.xml">
       <configuration name="TimeAnalyseTest" configurationId="JUnit" />
     </history-entry>
@@ -367,14 +437,18 @@
     <history-entry file="TimeAnalyseTest_testTimeNLP - 2019.11.06 at 15h 52m 16s.xml">
       <configuration name="TimeAnalyseTest.testTimeNLP" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="TimeAnalyseTest - 2019.11.07 at 16h 46m 51s.xml">
+      <configuration name="TimeAnalyseTest" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="43680000" />
+    <option name="totallyTimeSpent" value="45113000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="59" y="25" width="1861" height="1055" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.332964" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.15678671" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="JRebel" order="2" side_tool="true" />
       <window_info id="Designer" order="3" />
@@ -382,7 +456,7 @@
       <window_info id="Favorites" order="5" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.33257404" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.3861048" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.499723" visible="true" weight="0.3861048" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.34311512" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -391,7 +465,7 @@
       <window_info anchor="bottom" id="Version Control" order="8" sideWeight="0.499723" weight="0.32915717" />
       <window_info anchor="bottom" id="Database Changes" order="9" />
       <window_info anchor="bottom" id="Terminal" order="10" weight="0.22892939" />
-      <window_info anchor="bottom" id="Event Log" order="11" sideWeight="0.500277" side_tool="true" weight="0.32915717" />
+      <window_info anchor="bottom" id="Event Log" order="11" sideWeight="0.500277" side_tool="true" weight="0.3861048" />
       <window_info anchor="bottom" id="JRebel Executor" order="12" />
       <window_info anchor="bottom" id="Messages" order="13" weight="0.3295711" />
       <window_info anchor="bottom" id="JRebel Console" order="14" side_tool="true" />
@@ -412,9 +486,10 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Time_nlp 添加节日时间支持" />
     <MESSAGE value="readme" />
-    <MESSAGE value="修改测试" />
     <MESSAGE value="添加外部代接口" />
-    <option name="LAST_COMMIT_MESSAGE" value="添加外部代接口" />
+    <MESSAGE value="删除垃圾文件" />
+    <MESSAGE value="修改测试" />
+    <option name="LAST_COMMIT_MESSAGE" value="修改测试" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -524,16 +599,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/test/com/shinyke/LunarCalendar.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="665">
-          <caret line="35" column="41" selection-start-line="35" selection-start-column="31" selection-end-line="35" selection-end-column="41" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/time/util/CommonDateUtil.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="266">
@@ -579,22 +644,17 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/test/com/shinyke/ReTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="361">
-          <caret line="19" column="5" lean-forward="true" selection-start-line="19" selection-start-column="5" selection-end-line="19" selection-end-column="5" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
+    <entry file="file://$PROJECT_DIR$/resource/TimeExp.m">
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/test/com/shinyke/TimeAnalyseTest.java">
+    <entry file="file://$PROJECT_DIR$/.gitattributes">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/time/nlp/TimeNLP.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="342">
-          <caret line="42" column="51" selection-start-line="42" selection-start-column="51" selection-end-line="42" selection-end-column="51" />
+        <state relative-caret-position="722">
+          <caret line="38" column="16" selection-start-line="38" selection-start-column="8" selection-end-line="38" selection-end-column="16" />
           <folding>
-            <element signature="n#!!doc" expanded="true" />
             <element signature="imports" expanded="true" />
           </folding>
         </state>
@@ -602,20 +662,34 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="966">
-          <caret line="89" column="29" selection-start-line="89" selection-start-column="29" selection-end-line="89" selection-end-column="29" />
+        <state relative-caret-position="113">
+          <caret line="74" column="46" selection-start-line="74" selection-start-column="46" selection-end-line="74" selection-end-column="46" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/resource/TimeExp.m">
-      <provider selected="true" editor-type-id="text-editor" />
+    <entry file="file://$PROJECT_DIR$/test/com/shinyke/ReTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="361">
+          <caret line="19" column="5" selection-start-line="19" selection-start-column="5" selection-end-line="19" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/.gitattributes">
-      <provider selected="true" editor-type-id="text-editor" />
+    <entry file="file://$PROJECT_DIR$/test/com/shinyke/LunarCalendar.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="516">
+          <caret line="35" column="41" selection-start-line="35" selection-start-column="31" selection-end-line="35" selection-end-column="41" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/time/nlp/TimeNormalizer.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="572">
+        <state relative-caret-position="152">
           <caret line="279" column="8" selection-start-line="279" selection-start-column="8" selection-end-line="279" selection-end-column="8" />
           <folding>
             <element signature="e#4080#4081#0" expanded="true" />
@@ -624,11 +698,12 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/time/nlp/TimeNLP.java">
+    <entry file="file://$PROJECT_DIR$/test/com/shinyke/TimeAnalyseTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="624">
-          <caret line="38" column="16" selection-start-line="38" selection-start-column="8" selection-end-line="38" selection-end-column="16" />
+        <state relative-caret-position="138">
+          <caret line="133" column="4358" selection-start-line="133" selection-start-column="4358" selection-end-line="133" selection-end-column="4358" />
           <folding>
+            <element signature="n#!!doc" expanded="true" />
             <element signature="imports" expanded="true" />
           </folding>
         </state>
