@@ -277,7 +277,7 @@ public class TimeNormalizer implements Serializable {
 
     private Pattern readModel(ObjectInputStream in) throws Exception {
         Pattern p = (Pattern) in.readObject();
-        LOGGER.debug("model pattern:{}", p.pattern());
+        //LOGGER.debug("model pattern:{}", p.pattern());
         return Pattern.compile(p.pattern());
     }
 
