@@ -40,7 +40,7 @@ public class TimeAnalyseTest {
         TimeNormalizer normalizer = new TimeNormalizer(url.toURI().toString());
         normalizer.setPreferFuture(false);
         
-        normalizer.parse("本星期五有什么活动");// 抽取时间
+        normalizer.parse("下个星期周五有什么活动");// 抽取时间
         TimeUnit[] unit = normalizer.getTimeUnit();
        	for(int i=0;i<unit.length;i++){
 
@@ -153,30 +153,6 @@ public class TimeAnalyseTest {
 			if(m.find()){
 				System.out.println(r);
 			}
-		}
-
-	}
-
-
-
-	@Test
-	public void test1(){
-		String rule = "(((?<!下)下(?:周|星期)(?:周|星期)?))[1-7]?)";
-		Pattern pattern = Pattern.compile(rule);
-		Matcher match = pattern.matcher("下星期周5");
-		if (match.find()) {
-			//flag[2] = true;
-			int week;
-			try {
-				System.out.println(match.group(2));
-				week = Integer.parseInt(match.group());
-			} catch (NumberFormatException e) {
-				week = 1;
-			}
-			if (week == 7)
-				week = 1;
-			else
-				week++;
 		}
 
 	}
