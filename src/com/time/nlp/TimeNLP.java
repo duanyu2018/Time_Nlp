@@ -22,7 +22,7 @@ public class TimeNLP {
    }
 
     /**
-     * query处理
+     * query处理，默认是倾向于未来时间
      * @param query
      * @return
      */
@@ -33,6 +33,12 @@ public class TimeNLP {
        return unit;
    }
 
+    /**
+     * query处理
+     * @param query
+     * @param ispreferFuture 设置是否倾向未来时间
+     * @return
+     */
     public  TimeUnit[] handle(String query,boolean ispreferFuture){
         normalizer.setPreferFuture(ispreferFuture);
         normalizer.parse(query);// 抽取时间
